@@ -5,7 +5,7 @@ Version:	0.1.6.2
 Release:	1
 License:	Apache v2.0
 Group:		Libraries
-Source0:	https://github.com/algernon/libmongo-client/archive/libmongo-client-0.1.6.2.tar.gz
+Source0:	https://github.com/algernon/libmongo-client/archive/%{name}-%{version}.tar.gz
 # Source0-md5:	22cf346fe7caafaa75395eeb2680b45c
 URL:		https://github.com/algernon/libmongo-client
 BuildRequires:	autoconf >= 2.50
