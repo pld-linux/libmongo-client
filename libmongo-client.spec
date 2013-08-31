@@ -1,12 +1,12 @@
 Summary:	Alternative C driver for MongoDB
 Summary(pl.UTF-8):	Alternatywny interfejs C do MongoDB
 Name:		libmongo-client
-Version:	0.1.6.2
+Version:	0.1.6.3
 Release:	1
 License:	Apache v2.0
 Group:		Libraries
 Source0:	https://github.com/algernon/libmongo-client/archive/%{name}-%{version}.tar.gz
-# Source0-md5:	22cf346fe7caafaa75395eeb2680b45c
+# Source0-md5:	67d319681100a6f2d0e77daf6e3b42fc
 URL:		https://github.com/algernon/libmongo-client
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1:1.9
@@ -90,7 +90,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc NEWS README.rst
+%doc NEWS README.md
 %attr(755,root,root) %{_libdir}/libmongo-client.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libmongo-client.so.0
 
